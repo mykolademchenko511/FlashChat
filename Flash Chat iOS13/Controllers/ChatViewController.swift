@@ -25,6 +25,7 @@ class ChatViewController: UIViewController {
         navigationItem.hidesBackButton = true
         
         tableView.register(UINib(nibName: K.cellNibName, bundle: nil), forCellReuseIdentifier: K.cellIdentifier)
+        navigationController?.navigationBar.barTintColor = UIColor(named: K.BrandColors.blue)
         
         loadMessages()
         
