@@ -1,13 +1,20 @@
 # FlashChat
-BTC price fetcher built with UIPickerView, URLsession.
+Simple chatting app built with Firebase, IQKeyboardManager.  
 # Preview:
-https://user-images.githubusercontent.com/119513590/230157833-cf29ba6c-0a5b-41ff-8f97-047de676ec78.mp4
+https://user-images.githubusercontent.com/119513590/230633624-2d40f128-9950-43fb-99de-635fca541649.mp4
 # Done in this project:
-Use UIPickerView 
-Delegate design pattern  
-URLSession
-JSONDecoder  
-Use GCD to update UI appropriately  
-Use extensions  
+MVC
+Typing animations with CLTypingLabel pod
+Add Firebase
+Register new users
+Log in existing users
+Log out users
+Use Constants file
+Database setup
+Listening to updates on Firestore
+Retireve data from Firestore
+Sort data
+Add IQKeyboardManagerPod
+
  
 
